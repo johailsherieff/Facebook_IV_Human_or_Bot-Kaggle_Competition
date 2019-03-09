@@ -1,0 +1,4 @@
+# Facebook_IV_Human_or_Bot-Kaggle_Competition
+Facebook and kaggle launced a compititon in 2015 to detect the bot activity from an online auction. Human bidders were getting frustrated with the inability to win auctions because of their software controlled opponents. So the objective of this competition is to classify which bids are made by bots and which bids are made by humans. Intially in the training set we had 9 columns giving a brief idea about the auctions. Before building the machine learning model we perfomed feature engineering to help classification model get better picture of the auction. Initially we are using H2O AutoML to test the our predictions and get idea about how our feature engineering resulted. After running the model on H2O we ran the model using normal python libraries.
+
+We implemeted the following models - Gradient Boosting machine , Extreme Gradient Boosting, Random forest, Adaptive boosting, Caliberative classifier and Bagging classifier.
